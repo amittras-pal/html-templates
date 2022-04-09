@@ -1,0 +1,16 @@
+.contact-page {
+  font-family: "Poppins", sans-serif !important;
+  background-image: url("../assets/contact.jpg");
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: 100%;
+  &__header {
+    // height: 70vh;
+    h2.title {
+      font-size: 4rem;
+    }
+  }
+  .contact-type {
+    min-height: 20rem;
+  }
+}

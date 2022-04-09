@@ -1,0 +1,13 @@
+.about-page {
+  font-family: "Poppins", sans-serif !important;
+  &__header {
+    height: 70vh;
+    background-image: url("../assets/about-header.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    h2.title {
+      font-size: 4rem;
+    }
+  }
+}

@@ -1,0 +1,73 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import "./bootrstrap";
+@import "./home-page";
+@import "./services-page";
+@import "./about-page";
+@import "./contact-page";
+
+.app-header {
+  padding: 0rem 1.5rem;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  .navigation {
+    display: flex;
+    height: 100%;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 0.5rem;
+    a.nav-link {
+      color: var(--bs-light);
+      display: flex;
+      align-items: center;
+      &:hover,
+      &.active {
+        background-color: var(--bs-light);
+        color: var(--bs-dark);
+      }
+    }
+  }
+}
+
+.app-footer {
+  a.footer-link {
+    text-decoration: none;
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+  .footer-social-icons {
+    font-size: 24px;
+    gap: 0.75rem;
+  }
+}
+
+.product-card {
+  padding: 1rem;
+  text-align: start;
+  border-radius: 0.5rem;
+  transition: all 0.15s ease-in-out;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  background-color: var(--bs-light);
+  box-shadow: 0px 10px 10px -3px rgba($color: #212529, $alpha: 0.07);
+  &:hover {
+    box-shadow: 0px 10px 24px -3px rgba($color: #212529, $alpha: 0.25);
+  }
+  .image-container {
+    width: 3rem;
+    height: 3rem;
+    background-color: var(--bs-danger);
+    border-radius: 2rem;
+    margin-bottom: 1.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+  }
+}
