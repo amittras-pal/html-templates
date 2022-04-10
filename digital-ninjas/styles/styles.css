@@ -11217,6 +11217,97 @@ textarea.form-control-lg {
   min-height: 20rem;
 }
 
+.services-page {
+  font-family: "Poppins", sans-serif !important;
+}
+.services-page__service-page .header h1, .services-page__service-page .header .h1 {
+  font-size: 6rem;
+}
+.services-page__service-page .header h4, .services-page__service-page .header .h4 {
+  font-size: 3rem;
+}
+.services-page__service-page .img-list {
+  gap: 1rem;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.services-page__service-page .img-list .img-container {
+  width: 6rem;
+  height: 6rem;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--bs-light);
+}
+.services-page__service-page .img-list .img-container img {
+  max-height: 60%;
+  max-width: 60%;
+}
+
+.timeline-steps {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.timeline-steps .timeline-step {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  margin: 1rem;
+}
+
+@media (min-width: 768px) {
+  .timeline-steps .timeline-step:not(:last-child):after {
+    content: "";
+    display: block;
+    border-top: 0.25rem dotted var(--bs-danger);
+    width: 3.46rem;
+    position: absolute;
+    left: 7.5rem;
+    top: 0.3125rem;
+  }
+
+  .timeline-steps .timeline-step:not(:first-child):before {
+    content: "";
+    display: block;
+    border-top: 0.25rem dotted var(--bs-danger);
+    width: 3.8125rem;
+    position: absolute;
+    right: 7.5rem;
+    top: 0.3125rem;
+  }
+}
+.timeline-steps .timeline-content {
+  width: 10rem;
+  text-align: center;
+  border: none;
+  background-color: none;
+}
+
+.timeline-steps .timeline-content .inner-circle {
+  border-radius: 1.5rem;
+  height: 1rem;
+  width: 1rem;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--bs-danger);
+}
+
+.timeline-steps .timeline-content .inner-circle:before {
+  content: "";
+  background-color: var(--bs-danger);
+  display: inline-block;
+  height: 3rem;
+  width: 3rem;
+  min-width: 3rem;
+  border-radius: 6.25rem;
+  opacity: 0.5;
+}
+
 .app-header {
   padding: 0rem 1.5rem;
   height: 60px;
@@ -11283,6 +11374,10 @@ textarea.form-control-lg {
 
 .bg-white {
   background: #fff;
+}
+
+.cur-point {
+  cursor: pointer !important;
 }
 
 /*# sourceMappingURL=styles.css.map */

@@ -4,6 +4,7 @@
 @import "./services-page";
 @import "./about-page";
 @import "./contact-page";
+@import "./services-pages";
 
 .app-header {
   padding: 0rem 1.5rem;
@@ -74,4 +75,8 @@
 
 .bg-white {
   background: #fff;
+}
+
+.cur-point {
+  cursor: pointer !important;
 }
