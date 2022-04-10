@@ -11132,29 +11132,42 @@ textarea.form-control-lg {
 .home-page__header h2.title, .home-page__header .title.h2 {
   font-size: 4rem;
 }
-.home-page__products .product-card {
-  padding: 1rem;
+.home-page__briefing img.foorprint-img {
+  height: 350px;
+}
+.home-page__services .services-block {
+  border: 1px solid rgba(0, 0, 0, 0.15);
+  border-radius: 0.75rem;
+  transition: all 0.2s ease-in-out;
+}
+.home-page__services .services-block .nav-link {
+  background: none;
+  white-space: nowrap;
   text-align: start;
-  border-radius: 0.5rem;
-  transition: all 0.15s ease-in-out;
-  height: 100%;
-  display: flex;
-  flex-direction: column;
-  box-shadow: 0px 10px 10px -3px rgba(33, 37, 41, 0.07);
+  color: var(--bs-danger);
+  border-radius: 0;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
 }
-.home-page__products .product-card:hover {
-  box-shadow: 0px 10px 24px -3px rgba(33, 37, 41, 0.25);
-}
-.home-page__products .product-card .image-container {
-  width: 3rem;
-  height: 3rem;
+.home-page__services .services-block .nav-link.active {
   background-color: var(--bs-danger);
-  border-radius: 2rem;
-  margin-bottom: 1.5rem;
+  color: var(--bs-light);
+}
+.home-page__services .services-block .img-list {
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+.home-page__services .services-block .img-container {
+  width: 6rem;
+  height: 6rem;
+  border-radius: 50%;
   display: flex;
-  justify-content: center;
   align-items: center;
-  font-size: 24px;
+  justify-content: center;
+}
+.home-page__services .services-block .img-container img {
+  max-height: 60%;
+  max-width: 60%;
 }
 .home-page .bg-none {
   background-color: transparent !important;
