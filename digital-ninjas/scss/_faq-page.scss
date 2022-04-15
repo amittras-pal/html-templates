@@ -1,0 +1,12 @@
+.faq-page {
+  &__header {
+    background-image: url("../assets/faq.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 20rem;
+    h1 {
+      font-size: 5rem;
+    }
+  }
+}

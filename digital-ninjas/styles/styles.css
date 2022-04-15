@@ -11308,6 +11308,17 @@ textarea.form-control-lg {
   opacity: 0.5;
 }
 
+.faq-page__header {
+  background-image: url("../assets/faq.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  min-height: 20rem;
+}
+.faq-page__header h1, .faq-page__header .h1 {
+  font-size: 5rem;
+}
+
 .app-header {
   padding: 0rem 1.5rem;
   height: 60px;
