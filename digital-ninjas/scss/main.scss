@@ -81,3 +81,33 @@
 .cur-point {
   cursor: pointer !important;
 }
+
+.whatsapp-link-container {
+  position: fixed;
+  bottom: 2rem;
+  right: 2rem;
+  width: 4rem;
+  height: 4rem;
+  z-index: 100;
+  background-color: #25d366;
+  border-radius: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  img {
+    height: 75%;
+    width: 75%;
+  }
+}
+
+.dn-popper {
+  overflow: hidden;
+  border: 0;
+  .popover-arrow {
+    display: none;
+  }
+  .popover-body {
+    border-right: 6px solid var(--bs-danger);
+  }
+}

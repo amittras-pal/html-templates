@@ -10,4 +10,27 @@
       font-size: 4rem;
     }
   }
+  &__testimonials {
+    background-image: url("../assets/customer-service.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    .quote-icon {
+      font-size: 2rem;
+      color: var(--bs-danger);
+      opacity: 0.5;
+    }
+    .customer-dp {
+      height: 45px;
+      width: 45px;
+      border: 2px solid var(--bs-danger);
+      border-radius: 60px;
+      margin-right: 1rem;
+    }
+  }
+}
+
+.security-item-icon {
+  width: 45px;
+  margin-right: 0.5rem;
 }

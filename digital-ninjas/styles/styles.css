@@ -11188,6 +11188,29 @@ textarea.form-control-lg {
 .services-page__header h2.title, .services-page__header .title.h2 {
   font-size: 4rem;
 }
+.services-page__testimonials {
+  background-image: url("../assets/customer-service.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.services-page__testimonials .quote-icon {
+  font-size: 2rem;
+  color: var(--bs-danger);
+  opacity: 0.5;
+}
+.services-page__testimonials .customer-dp {
+  height: 45px;
+  width: 45px;
+  border: 2px solid var(--bs-danger);
+  border-radius: 60px;
+  margin-right: 1rem;
+}
+
+.security-item-icon {
+  width: 45px;
+  margin-right: 0.5rem;
+}
 
 .about-page {
   font-family: "Poppins", sans-serif !important;
@@ -11389,6 +11412,35 @@ textarea.form-control-lg {
 
 .cur-point {
   cursor: pointer !important;
+}
+
+.whatsapp-link-container {
+  position: fixed;
+  bottom: 2rem;
+  right: 2rem;
+  width: 4rem;
+  height: 4rem;
+  z-index: 100;
+  background-color: #25d366;
+  border-radius: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.whatsapp-link-container img {
+  height: 75%;
+  width: 75%;
+}
+
+.dn-popper {
+  overflow: hidden;
+  border: 0;
+}
+.dn-popper .popover-arrow {
+  display: none;
+}
+.dn-popper .popover-body {
+  border-right: 6px solid var(--bs-danger);
 }
 
 /*# sourceMappingURL=styles.css.map */
