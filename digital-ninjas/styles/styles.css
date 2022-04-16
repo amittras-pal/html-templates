@@ -11268,6 +11268,12 @@ textarea.form-control-lg {
   max-width: 60%;
 }
 
+.ads-image-block {
+  background-image: url("../assets/ads.jpg");
+  background-position: center top;
+  background-size: cover;
+}
+
 .timeline-steps {
   display: flex;
   justify-content: center;

@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "sass-ccompile:digital-ninjas": "sass --watch ./digital-ninjas/scss/main.scss ./digital-ninjas/styles/styles.css"
+    "sass-compile:digital-ninjas": "sass --watch ./digital-ninjas/scss/main.scss ./digital-ninjas/styles/styles.css"
   },
   "keywords": [],
   "author": "",
