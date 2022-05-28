@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../static/vendors/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="../static/vendors/assets/owl.theme.default.min.css">
+    <style>
+        .carousel-item {
+            margin: 1rem 0rem;
+            background-color: antiquewhite;
+            border-radius: 0.75rem;
+            padding: 1.5rem;
+            box-shadow: 0px 5px 10px -2px #00000033;
+        }
+
+        .owl-carousel button.owl-dot {
+            width: 10px;
+            height: 10px;
+            background: #00000033;
+            border-radius: 50%;
+            margin: 0 0.5rem;
+        }
+
+        .owl-carousel button.owl-dot.active {
+            background: #00000099;
+        }
+    </style>
+    <title>Document</title>
+</head>
+
+<body>
+
+    <div class="owl-carousel">
+        <div class="carousel-item">Item Number 1</div>
+        <div class="carousel-item">Item Number 2</div>
+        <div class="carousel-item">Item Number 3</div>
+        <div class="carousel-item">Item Number 4</div>
+        <div class="carousel-item">Item Number 5</div>
+        <div class="carousel-item">Item Number 6</div>
+        <div class="carousel-item">Item Number 7</div>
+        <div class="carousel-item">Item Number 8</div>
+        <div class="carousel-item">Item Number 9</div>
+        <div class="carousel-item">Item Number 10</div>
+        <div class="carousel-item">Item Number 11</div>
+        <div class="carousel-item">Item Number 12</div>
+        <div class="carousel-item">Item Number 13</div>
+        <div class="carousel-item">Item Number 14</div>
+        <div class="carousel-item">Item Number 15</div>
+        <div class="carousel-item">Item Number 16</div>
+        <div class="carousel-item">Item Number 17</div>
+        <div class="carousel-item">Item Number 18</div>
+        <div class="carousel-item">Item Number 19</div>
+        <div class="carousel-item">Item Number 20</div>
+    </div>
+    <script src="../static/vendors/jquery.min.js"></script>
+    <script src="../static/vendors/owl.carousel.min.js"></script>
+    <script>
+        $('.owl-carousel').owlCarousel({
+            loop: true,
+            margin: 10,
+            nav: true,
+            responsive: {
+                0: {
+                    items: 2
+                },
+                600: {
+                    items: 3
+                },
+                1000: {
+                    items: 5
+                }
+            }
+        })
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../static/vendors/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="../static/vendors/assets/owl.theme.default.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/@tabler/icons@latest/iconfont/tabler-icons.min.css">
+    <link rel="stylesheet" href="../styles/styles.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg" id="fitnessBlog">
+        <div class="container">
+            <a class="navbar-brand" href="./index.html">SQUADonSQUATS</a>
+            <button class="navbar-toggler text-dark" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <i class="ti ti-menu-2"></i>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="./index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./about.html">About</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Healthcare Topics
+                        </a>
+                        <ul class="dropdown-menu border-0 shadow" aria-labelledby="navbarDropdown">
+                            <li>
+                                <a class="dropdown-item" href="./blog.listing.html?category=eating">Eating
+                                    Better</a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="./blog.listing.html?category=exercise">Getting Fit</a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="./blog.listing.html?category=lifestyle">Living Well</a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="./blog.listing.html?category=weight">Managing Weight</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./consultation.html" tabindex="-1" aria-disabled="true">Get
+                            Consultation</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <main class="home">
+        <section class="container-fluid home__header">
+            <div class="content mx-auto">
+                <h1 class="brand">SQUADonSQUATS</h1>
+                <h1 class="title">Helping you live stronger, healthier and happier.</h1>
+            </div>
+        </section>
+        <section class="container py-5 home__info">
+            <h1 class="text-dark text-uppercase fw-bold">We Believe</h1>
+            <h4 class="text-danger text-uppercase">in delivering trusted health, nutrition and fitness information.
+                <span class="fw-bold">For all.</span>
+            </h4>
+            <h6 class="text-dark pb-4 border-bottom border-danger">We strive to give you the tools and knowledge you
+                need to live a happier, healthier life.</h6>
+
+            <h4 class="text-center fw-bold text-dark mt-5 pt-5">
+                Read from one of our curated topics.
+            </h4>
+            <div class="row mt-4">
+                <div class="col-md-3">
+                    <a class="health-key" href="./blog.listing.html?category=eating">
+                        <div class="img-container shadow">
+                            <img src="../static/images/eating-better.cover.png" alt="" class="w-100 rounded">
+                        </div>
+                        <h5 class="title fw-bold mt-3">Eating Better</h3>
+                    </a>
+                </div>
+                <div class="col-md-3">
+                    <a class="health-key" href="./blog.listing.html?category=exercise">
+                        <div class="img-container shadow">
+                            <img src="../static/images/getting-fit.cover.png" alt="" class="w-100 rounded">
+                        </div>
+                        <h5 class="title fw-bold mt-3">Getting Fit</h3>
+                    </a>
+                </div>
+                <div class="col-md-3">
+                    <a class="health-key" href="./blog.listing.html?category=lifestyle">
+                        <div class="img-container shadow">
+                            <img src="../static/images/live-well.cover.png" alt="" class="w-100 rounded">
+                        </div>
+                        <h5 class="title fw-bold mt-3">Living Well</h3>
+                    </a>
+                </div>
+                <div class="col-md-3">
+                    <a class="health-key" href="./blog.listing.html?category=weight">
+                        <div class="img-container shadow">
+                            <img src="../static/images/manage-weight.cover.png" alt="" class="w-100 rounded">
+                        </div>
+                        <h5 class="title fw-bold mt-3">Managing Weight</h3>
+                    </a>
+                </div>
+            </div>
+        </section>
+        <section class="home__top-articles container-fluid py-5">
+            <div class="container mb-4">
+                <h1 class="text-dark text-uppercase fw-bold">Top Articles</h1>
+                <h4 class="text-danger text-uppercase">
+                    Read our most loved articles from a all topics.
+                </h4>
+            </div>
+            <div class="container blogs-list">
+                <div class="blog-card shadow">
+                    <div class="row">
+                        <div class="col-md-3">
+                            <div class="img-container">
+                                <img src="../static/images/nutri-blog-1.cover.webp" alt="" class="w-100">
+                            </div>
+                        </div>
+                        <div class="col-md-9 d-flex flex-column">
+                            <div class="badge bg-danger fw-bold mb-2 me-auto">
+                                Nutrition
+                            </div>
+                            <h4 class="fw-bold">
+                                The 15 Best Foods to Eat Before Drinking Alcohol (and 4 to Avoid)
+                            </h4>
+                            <p class="small text-muted mb-0" id="date">May 22, 2022</p>
+                            <p class="small text-dark">
+                                by
+                                <span class="fw-bold" id="author">Sarah Pflugadt</span>
+                            </p>
+                            <a href="./blog.food-1.html" class="fw-bold text-decoration-none mt-auto ms-auto"
+                                id="link">Read More</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="blog-card shadow">
+                    <div class="row">
+                        <div class="col-md-3">
+                            <div class="img-container">
+                                <img src="../static/images/workout-blog-1.cover.webp" alt="" class="w-100">
+                            </div>
+                        </div>
+                        <div class="col-md-9 d-flex flex-column">
+                            <div class="badge bg-danger fw-bold mb-2 me-auto">
+                                Getting Fit
+                            </div>
+                            <h4 class="fw-bold">
+                                A Quick, 10-Minute Ab Workout for People With Back Pain
+                            </h4>
+                            <p class="small text-muted mb-0">May 21, 2022</p>
+                            <p class="small text-dark">
+                                by
+                                <span class="fw-bold">Cara Stevens</span>
+                            </p>
+                            <a href="./blog.workout-1.html" class="fw-bold text-decoration-none mt-auto ms-auto">Read
+                                More</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="blog-card shadow">
+                    <div class="row">
+                        <div class="col-md-3">
+                            <div class="img-container">
+                                <img src="../static/images/weight-blog-1.cover.webp" alt="" class="w-100">
+                            </div>
+                        </div>
+                        <div class="col-md-9 d-flex flex-column">
+                            <div class="badge bg-danger fw-bold mb-2 me-auto">
+                                Weight Management
+                            </div>
+                            <h4 class="fw-bold">
+                                3 Spring Pitfalls That Can Lead to Weight Gain and How to Nip Them in the Bud
+                            </h4>
+                            <p class="small text-muted mb-0">March 29, 2022</p>
+                            <p class="small text-dark">
+                                by
+                                <span class="fw-bold">Tiffany Curtis</span>
+                            </p>
+                            <a href="./blog.weight-1.html" class="fw-bold text-decoration-none mt-auto ms-auto">Read
+                                More</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="blog-card shadow">
+                    <div class="row">
+                        <div class="col-md-3">
+                            <div class="img-container">
+                                <img src="../static/images/weight-blog-2.cover.webp" alt="" class="w-100">
+                            </div>
+                        </div>
+                        <div class="col-md-9 d-flex flex-column">
+                            <div class="badge bg-danger fw-bold mb-2 me-auto">
+                                Weight Management
+                            </div>
+                            <h4 class="fw-bold">
+                                Seafood Can Help You Lose Weight, Unless You're Making These 4 Mistakes
+                            </h4>
+                            <p class="small text-muted mb-0">February 1, 2022</p>
+                            <p class="small text-dark">
+                                by
+                                <span class="fw-bold">Marygrace Taylor</span>
+                            </p>
+                            <a href="./blog.weight-2.html" class="fw-bold text-decoration-none mt-auto ms-auto">Read
+                                More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="container-fluid bg-light py-5 home__testimonials">
+            <div class="container">
+                <h1 class="text-dark text-uppercase fw-bold">What our clients say</h1>
+                <h4 class="text-danger text-uppercase">
+                    Over the years, our information has helped many people,
+                    <span class="fw-bold">Read their thoughts.</span>
+                </h4>
+                <div class="owl-carousel">
+                    <div class="testimonial shadow-sm">
+                        <span class="text-danger quote-icon"><i class="ti ti-blockquote"></i></span>
+                        <h3 class="text-dark fw-bold">Luciana F.</h3>
+                        <p class="text-muted mb-0">SQUADonSQUATS is the cleanest and most organized gym I’ve ever seen!
+                            I have no words to say how wonderful they are! Domenic makes you feel super comfortable,
+                            Kaitlyn helps you eat better and healthy! SQUADonSQUATS has a team of excellence! They have
+                            a place for anyone, a plan for any goal, everything is very flexible! I am extremely
+                            satisfied with SQUADonSQUATS and the entire team. 1 to 10.</p>
+                    </div>
+                    <div class="testimonial shadow-sm">
+                        <span class="text-danger quote-icon"><i class="ti ti-blockquote"></i></span>
+                        <h3 class="text-dark fw-bold">Stephanie R.</h3>
+                        <p class="text-muted mb-0">I have trained at SQUADonSQUATS for over 3 years. When I was
+                            diagnosed with cancer a year after joining FW. Everyone connected to FW (owners, trainers,
+                            fellow clients) supported me through treatment and warmly welcomed me back when I got the ok
+                            from my medical team. Through 1:1 and small group training I have regained my strength and
+                            confidence. I feel healthy & strong again. I find the workouts always motivating &
+                            challenging, different workouts every day and the trainers are fantastic! I love that
+                            everyone knows each other’s names and motivates each other. It truly is a fitfam!</p>
+                    </div>
+                    <div class="testimonial shadow-sm">
+                        <span class="text-danger quote-icon"><i class="ti ti-blockquote"></i></span>
+                        <h3 class="text-dark fw-bold">Christine D.</h3>
+                        <p class="text-muted mb-0">It has been almost one year and I have lost weight and increased my
+                            strength. I find the coaches – so motivating and supportive. During the shred I worked with
+                            Dave and he was very motivating and held me accountable. The nutritional guidance and meal
+                            plans are easy to follow that is realistic and plenty of food. Everyone is extremely – REAL
+                            – supportive, FUN, KNOWLEDGABLE and challenging.</p>
+                    </div>
+                    <div class="testimonial shadow-sm">
+                        <span class="text-danger quote-icon"><i class="ti ti-blockquote"></i></span>
+                        <h3 class="text-dark fw-bold">Nancy F.</h3>
+                        <p class="text-muted mb-0">Since joining SQUADonSQUATS 7 months ago I have lost 25 pounds. My
+                            favorite workouts are in small group. The trainers can give everyone as much attention as
+                            they need. They also push you to really challenge yourself with every workout. My favorite
+                            thing about the studio is the healthy competition with weekly challenges or the shred
+                            challenges but at the same time there is no judgment. Everyone wants everyone else to
+                            succeed and become the best version of themselves. (July 2020)</p>
+                    </div>
+                    <div class="testimonial shadow-sm">
+                        <span class="text-danger quote-icon"><i class="ti ti-blockquote"></i></span>
+                        <h3 class="text-dark fw-bold">Kristine M.</h3>
+                        <p class="text-muted mb-0">I have been training at SQUADonSQUATS for 2 years. I look forward to
+                            coming into the studio because I know that I will get a GREAT WORKOUT! I love training here
+                            and I am getting so much stronger and tighter. The coaches pushed me beyond what I thought I
+                            could handle! I love the atmosphere and the people. They make it so comfortable to be in a
+                            fitness environment. (August 2020)</p>
+                    </div>
+                    <div class="testimonial shadow-sm">
+                        <span class="text-danger quote-icon"><i class="ti ti-blockquote"></i></span>
+                        <h3 class="text-dark fw-bold">Deb W.</h3>
+                        <p class="text-muted mb-0">I joined SQUADonSQUATS about 8 months ago and I lost 52lbs. My
+                            favorite thing about their workouts is how much the coaches care and push you. The best
+                            thing working with an accountability coach is their never ending availability to ask
+                            questions and get support. I found their nutritional guidance and meal plans were easy to
+                            follow and modify. I really appreciate how much everyone there truly cares about your
+                            success. (May 2020)</p>
+                    </div>
+                    <div class="testimonial shadow-sm">
+                        <span class="text-danger quote-icon"><i class="ti ti-blockquote"></i></span>
+                        <h3 class="text-dark fw-bold">Bridget S.</h3>
+                        <p class="text-muted mb-0">I have been with SQUADonSQUATS for one week. Since joining I am
+                            eating healthier and the coaching helps motivate me and the coaches keep encouraging me to
+                            do my best!!! I love the cookbook they gave me because the recipes are simple and sooo good.
+                            The studio is welcoming, motivating but not intimidating … they take the time to explain
+                            things in a very positive way …. Love it!</p>
+                    </div>
+                    <div class="testimonial shadow-sm">
+                        <span class="text-danger quote-icon"><i class="ti ti-blockquote"></i></span>
+                        <h3 class="text-dark fw-bold">Peggy F.</h3>
+                        <p class="text-muted mb-0">My biggest achievement since joining is I’ve slimmed down to a ~30in
+                            waist while becoming stronger than I’ve ever been before. All of these improvements have
+                            made me a more agile tennis player, allowing me to compete at higher levels of competition.
+                            I’m extremely proud of my fitness improvements so far and thankful for the help from all the
+                            trainers to get here!</p>
+                    </div>
+                    <div class="testimonial shadow-sm">
+                        <span class="text-danger quote-icon"><i class="ti ti-blockquote"></i></span>
+                        <h3 class="text-dark fw-bold">Lorem, ipsum dolor.</h3>
+                        <p class="text-muted mb-0">For my birthday, my fiancé purchased the bootcamp service from
+                            SQUADonSQUATS. We were new to Reading and I wanted to find a new workout spot. I am
+                            stronger than when I started and I love how every bootcamp is different. SQUADonSQUATS is
+                            judgment free and I feel like everyone is a motivator. I joined Shred Challenge III because
+                            I wanted to challenge myself with something different. It was great to have everything laid
+                            out for us from the beginning. It has helped me physically and mentally; I’m so lucky to
+                            have found SQUADonSQUATS.</p>
+                    </div>
+                </div>
+                <div class="d-flex justify-content-center mt-3">
+                    <a href="./consultation.html" class="btn btn-lg btn-dark">Get Personalized Consultation</a>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="container-fluid bg-dark text-light py-5 px-5">
+        <div class="row">
+            <div class="col-md-4 mb-4">
+                <h2 class="fw-bold text-uppercase text-danger">SQUADonSQUATS</h2>
+                <p>
+                    <span class="fw-bold text-decoration-underline">SQUADonSQUATS</span> is your one stop shop for
+                    curated and verified informational articles about your health and lifestyle.
+                </p>
+                <h4 class="fw-bold mt-3">Connect With Us On:</h4>
+                <div class="d-flex mt-3">
+                    <a target="_blank" href="https://www.facebook.com" data-bs-toggle="tooltip"
+                        data-bs-placement="bottom" title="Facebook"><img src="../static/icons/fb.png"
+                            class="social-icon" alt=""></a>
+                    <a target="_blank" href="https://www.instagram.com" data-bs-toggle="tooltip"
+                        data-bs-placement="bottom" title="Instagram"><img src="../static/icons/insta.png"
+                            class="social-icon" alt=""></a>
+                    <a target="_blank" href="https://www.twitter.com/" data-bs-toggle="tooltip"
+                        data-bs-placement="bottom" title="Twitter"><img src="../static/icons/twitter.png"
+                            class="social-icon" alt=""></a>
+                    <a target="_blank" href="https://wa.me/+919456945678" data-bs-toggle="tooltip"
+                        data-bs-placement="bottom" title="Whatsapp"><img src="../static/icons/whatsapp.png"
+                            class="social-icon" alt=""></a>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4">
+                <h2 class="fw-bold text-uppercase text-danger">Contact</h2>
+                <p>
+                    <span class="me-2"><i class="ti ti-mail"></i></span>
+                    <a href="mailto:contact.us@SQUADonSQUATS.in" target="_blank"
+                        class="text-light">contact.us@SQUADonSQUATS.in</a>
+                </p>
+                <p>
+                    <span class="me-2"><i class="ti ti-phone"></i></span>
+                    <a href="tel:9456945678" target="_blank" class="text-light">9456945678</a>
+                </p>
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d29308.102865267356!2d77.77199135591069!3d23.333427132799216!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x397c18ffeef60181%3A0x8573be63c158358f!2sRaisen%2C%20Madhya%20Pradesh%20464551!5e0!3m2!1sen!2sin!4v1653110631487!5m2!1sen!2sin"
+                    width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade" class="rounded"></iframe>
+            </div>
+            <div class="col-md-4 mb-4">
+                <h2 class="fw-bold text-uppercase text-danger">newsletter</h2>
+                <p>Subscribe to our newsletter for weekly articles about your health directly in your inbox</p>
+                <form class="row g-3" id="footerNewsletter">
+                    <div class="col-8">
+                        <input type="text" class="form-control form-control-sm" id="email"
+                            placeholder="Email address..." required>
+                    </div>
+                    <div class="col-4">
+                        <button type="submit" class="btn btn-sm btn-outline-danger mb-3">Subscribe</button>
+                    </div>
+                </form>
+                <h4 class="fw-bold mt-3">Quick Links</h4>
+                <div class="list-group list-group-flush">
+                    <a href="./index.html" class="list-group-item fw-bold border-danger">Home</a>
+                    <a href="./about.html" class="list-group-item fw-bold border-danger">About Us</a>
+                    <a href="./consultation.html" class="list-group-item fw-bold border-danger">Get Consultation</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="../static/vendors/jquery.min.js"></script>
+    <script src="../static/vendors/owl.carousel.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+    <script src="../static/scripts/main.js" defer></script>
+</body>
+
+</html>
