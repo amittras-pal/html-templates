@@ -1,0 +1,651 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../styles/styles.css">
+    <link rel="stylesheet" href="../vendors/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="../vendors/assets/owl.theme.default.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/@tabler/icons@latest/iconfont/tabler-icons.min.css">
+    <title>Leaning Blog</title>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+        <div class="container-fluid">
+            <a class="navbar-brand fw-bold" href="./index.html">StudySelf</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <i class="ti ti-menu-2"></i>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="./index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./about.html">About Us</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link " href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Programs
+                        </a>
+                        <ul class="dropdown-menu dropdown-menu-end border-0 shadow" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="./math.course.html">Math Program</a></li>
+                            <li><a class="dropdown-item" href="./english.course.html">English Program</a></li>
+                            <li><a class="dropdown-item" href="./computer.course.html">Computer Programming Course</a>
+                            </li>
+                            <li><a class="dropdown-item" href="./speaking.course.html">Public Speaking Program</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./contact.html">Contact Us</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <main class="sh-home">
+        <section class="header container-fluid px-0">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6">
+                        <h1 class="fw-bold text-light mb-4">
+                            Prepare to make your own world...
+                        </h1>
+                        <p class="mb-0 bg-dark p-3 rounded">
+                            <span class="text-primary">StudySelf</span>
+                            <span class="text-light">
+                                provides the optimum environment for you to prepare for any undergrad exam that you wish
+                                to
+                                crack.
+                            </span>
+                            <br>
+                            <span class="fst-italic text-warning">The Right Way...</span>
+                        </p>
+                        <div class="d-flex gap-3">
+                            <a href="#courses" class="btn btn-primary mt-3">
+                                Explore Courses
+                                <i class="ti ti-arrow-right ms-2"></i>
+                            </a>
+                            <a href="#aboutUs" class="btn btn-outline-warning mt-3">
+                                About Us
+                                <i class="ti ti-arrow-right ms-2"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-md-6"></div>
+                </div>
+            </div>
+        </section>
+        <section class="about-us container-fluid bg-light py-5" id="aboutUs">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6 content shadow py-3">
+                        <h1>
+                            <span class="text-primary fw-bold">About </span>
+                            <span class="text-success">Us ... </span>
+                        </h1>
+                        <p class="text-muted fw-bold">
+                            We are focused on building a strong team of experts across a wide range of content, media
+                            and technology to create world class learning content for students of all education tiers
+                            for a rich and strong foundation.
+                        </p>
+                        <p class="text-muted fw-bold">
+                            Our content is targeted, precise, and effective for student to learn effectively and
+                            efficiently. We always keep enhancing our content based on the latest changes in the
+                            educational syllabi, and are curated in such a way to not make student feel burdened with
+                            studies but they learn in a way to keep things and retain for longer.
+                        </p>
+                        <p class="text-muted fw-bold">
+                            Our teacher and guides are known around the country for their way of handling student
+                            queries and the course materials provided along with proper descriptions and engaging way of
+                            teaching stuff to maximize retentions and also provide a playful environment where students
+                            can learn at their own ways..
+                        </p>
+                        <a href="./about.html" class="btn btn-primary shadow">
+                            Learn More
+                            <i class="ti ti-arrow-right ms-2"></i>
+                        </a>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="d-flex w-100 justify-content-center align-items-center video-player py-3 shadow">
+                            <button class="rounded-circle p-4 border border-light" data-bs-toggle="modal"
+                                data-bs-target="#videoModal">
+                                <i class="ti ti-player-play text-light"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="top-features container-fluid bg-primary py-5 px-0">
+            <div class="container">
+                <h1 class="mb-3">
+                    <span class="text-light fw-bold">Top </span>
+                    <span class="text-warning">Features ... </span>
+                </h1>
+                <div class="row">
+                    <div class="col-md-3 mb-3">
+                        <div class="bg-light rounded shadow p-2 h-100">
+                            <div class="bg-dark rounded w-100 d-flex align-items-center mb-3 gap-2 p-3">
+                                <img src="../images/student-icon.webp" alt="">
+                                <h3 class="text-light fw-bold">Scholarships</h2>
+                            </div>
+                            <p class="text-muted fst-italic">
+                                We provide scholarship chances for all students who are joining full time based on merit
+                                and performance.
+                            </p>
+                            <!-- <a href="" class="btn btn-sm btn-primary shadow">
+                                Learn More
+                                <i class="ti ti-arrow-right ms-2"></i>
+                            </a> -->
+                        </div>
+                    </div>
+                    <div class="col-md-3 mb-3">
+                        <div class="bg-light rounded shadow p-2 h-100">
+                            <div class="bg-dark rounded w-100 d-flex align-items-center mb-3 gap-2 p-3">
+                                <img src="../images/professot-icon.webp" alt="">
+                                <h3 class="text-light fw-bold">Top Teachers</h2>
+                            </div>
+                            <p class="text-muted fst-italic">
+                                We pride ourseves with leading teacher from around the country with qualifcation that
+                                assure of quality in every field.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-md-3 mb-3">
+                        <div class="bg-light rounded shadow p-2 h-100">
+                            <div class="bg-dark rounded w-100 d-flex align-items-center mb-3 gap-2 p-3">
+                                <img src="../images/book-icon.webp" alt="">
+                                <h3 class="text-light fw-bold">Library</h2>
+                            </div>
+                            <p class="text-muted fst-italic">
+                                We have our own library which is accessible to every student and is always up to date
+                                with the latest material.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-md-3 mb-3">
+                        <div class="bg-light rounded shadow p-2 h-100">
+                            <div class="bg-dark rounded w-100 d-flex align-items-center mb-3 gap-2 p-3">
+                                <img src="../images/lab-icon.webp" alt="">
+                                <h3 class="text-light fw-bold">Lab Facility</h2>
+                            </div>
+                            <p class="text-muted fst-italic">
+                                We have a fully featured and functional lab with all the equipment to provide valuable
+                                hands on experience.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="most-popular-courses container-fluid px-0 bg-dark py-5" id="courses">
+            <div class="container">
+                <h1 class="mb-4">
+                    <span class="text-primary fw-bold">Offered </span>
+                    <span class="text-success">Programs ... </span>
+                </h1>
+                <p class="text-muted fst-italic">
+                    Our curated learning programs are designed for every age group in mind. Explore from our courses and
+                    give your children the upper edge today.
+                </p>
+                <div class="row gx-1">
+                    <div class="col-md-3 mb-2">
+                        <div class="bg-light course-card border border-danger">
+                            <div class="bg-danger position-absolute px-3 py-1 text-light fw-bold small ad-open">
+                                Admissions Open
+                            </div>
+                            <div class="img-container">
+                                <img src="../images/speaking-course.webp" alt="">
+                            </div>
+                            <div class="course-card__details">
+                                <h4 class="text-danger text-uppercase">Public Speaking</h3>
+                                    <p class="small fst-italic">Learn to speak on more than 25 different platforms!</p>
+                            </div>
+                            <div class="course-card__more border border-top-0 border-danger d-flex gap-2">
+                                <a href="./speaking.course.html" class="btn btn-danger btn-sm flex-grow-1">
+                                    Course Details
+                                    <i class="ti ti-arrow-right ms-2"></i>
+                                </a>
+                                <a class="btn btn-outline-danger btn-sm flex-grow-1"
+                                    href="./speaking.course.html#apply">
+                                    Apply Now
+                                    <i class="ti ti-arrow-right ms-2"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 mb-2">
+                        <div class="bg-light course-card border border-danger">
+                            <div class="bg-danger position-absolute px-3 py-1 text-light fw-bold small ad-open">
+                                Admissions Open
+                            </div>
+                            <div class="img-container">
+                                <img src="../images/math-course.webp" alt="">
+                            </div>
+                            <div class="course-card__details">
+                                <h4 class="text-danger text-uppercase">Full Math Program</h3>
+                                    <p class="small fst-italic">Immerse your child in an enriching math class to boost
+                                        their performance in school.</p>
+                            </div>
+                            <div class="course-card__more border border-top-0 border-danger d-flex gap-2">
+                                <a href="./math.course.html" class="btn btn-danger btn-sm flex-grow-1">
+                                    Course Details
+                                    <i class="ti ti-arrow-right ms-2"></i>
+                                </a>
+                                <a href="./math.course.html#apply" class="btn btn-outline-danger btn-sm flex-grow-1">
+                                    Apply Now
+                                    <i class="ti ti-arrow-right ms-2"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 mb-2">
+                        <div class="bg-light course-card border border-danger">
+                            <div class="bg-danger position-absolute px-3 py-1 text-light fw-bold small ad-open">
+                                Admissions Open
+                            </div>
+                            <div class="img-container">
+                                <img src="../images/english-course.webp" alt="">
+                            </div>
+                            <div class="course-card__details">
+                                <h4 class="text-danger text-uppercase">Full English Program</h3>
+                                    <p class="small fst-italic">Immerse your child in an enriching english class to
+                                        boost their performance in school.</p>
+                            </div>
+                            <div class="course-card__more border border-top-0 border-danger d-flex gap-2">
+                                <a href="./english.course.html" class="btn btn-danger btn-sm flex-grow-1">
+                                    Course Details
+                                    <i class="ti ti-arrow-right ms-2"></i>
+                                </a>
+                                <a href="./english.course.html#apply" class="btn btn-outline-danger btn-sm flex-grow-1">
+                                    Apply Now
+                                    <i class="ti ti-arrow-right ms-2"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 mb-2">
+                        <div class="bg-light course-card border border-danger">
+                            <div class="bg-danger position-absolute px-3 py-1 text-light fw-bold small ad-open">
+                                Admissions Open
+                            </div>
+                            <div class="img-container">
+                                <img src="../images/coding-course.webp" alt="">
+                            </div>
+                            <div class="course-card__details">
+                                <h4 class="text-danger text-uppercase">Computer Programming</h3>
+                                    <p class="small fst-italic">Check out our full curriculum to understand how we are
+                                        building the next generation technology leaders.</p>
+                            </div>
+                            <div class="course-card__more border border-top-0 border-danger d-flex gap-2">
+                                <a href="./computer.course.html" class="btn btn-danger btn-sm flex-grow-1">
+                                    Course Details
+                                    <i class="ti ti-arrow-right ms-2"></i>
+                                </a>
+                                <a href="./computer.course.html#apply"
+                                    class="btn btn-outline-danger btn-sm flex-grow-1">
+                                    Apply Now
+                                    <i class="ti ti-arrow-right ms-2"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="achievements container-fluid px-0 bg-light py-5">
+            <div class="container">
+                <h1>
+                    <span class="text-primary fw-bold">Our </span>
+                    <span class="text-success">Achievements ... </span>
+                </h1>
+                <p class="fst-italic mb-4">
+                    We celebrate all achievements, be it small or huge. Over our <span class="fw-bold text-success">6
+                        years</span> of service we have made some great achievements. Here are some highlights,
+                </p>
+                <div class="row achievements-block mb-4">
+                    <div class="col-md-3">
+                        <div class="d-flex gap-3">
+                            <img class="mb-auto" src="../images/hand-pencil-gray.webp" alt="">
+                            <div class="block">
+                                <h2 class="text-primary fw-bold mb-0">1200+</h2>
+                                <h5 class="text-muted">Students</h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="d-flex gap-3">
+                            <img class="mb-auto" src="../images/student-icon-gray.webp" alt="">
+                            <div class="block">
+                                <h2 class="text-primary fw-bold mb-0">800+</h2>
+                                <h5 class="text-muted">Success Stories</h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="d-flex gap-3">
+                            <img class="mb-auto" src="../images/diamind-icon-gray.webp" alt="">
+                            <div class="block">
+                                <h2 class="text-primary fw-bold mb-0">80+</h2>
+                                <h5 class="text-muted">Awards</h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="d-flex gap-3">
+                            <img class="mb-auto" src="../images/book-icon-gray.webp" alt="">
+                            <div class="block">
+                                <h2 class="text-primary fw-bold mb-0">75+</h2>
+                                <h5 class="text-muted">Faculties</h5>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="container-sm px-0 py-4">
+                    <div class="owl-carousel">
+                        <div class="sh-carousel-item p-3">
+                            <i class="ti ti-blockquote h1 mb-2 text-warning"></i>
+                            <p class="text-light">Yartharth Singh expresses his gratitude to SiteName for bringing
+                                excellent teachers into his life. He appreciates SiteName study material for helping him
+                                keep up with his studies.</p>
+                            <h4 class="text-warning fw-light mb-0">Yartharth Singh</h3>
+                                <p class="small fst-italic text-secondary">Class 11</p>
+                        </div>
+                        <div class="sh-carousel-item p-3">
+                            <i class="ti ti-blockquote h1 mb-2 text-warning"></i>
+                            <p class="text-light">Learning should be an experience for children and my kids got that.
+                                Thanks to STUDY_SELF. they don’t need anything else to study from.</p>
+                            <h4 class="text-warning fw-light mb-0"> RAVI DUBEY</h3>
+                                <p class="small fst-italic text-secondary">Class 6</p>
+                        </div>
+                        <div class="sh-carousel-item p-3">
+                            <i class="ti ti-blockquote h1 mb-2 text-warning"></i>
+                            <p class="text-light">The STUDY_SELF app is so interactive! My kids love it. They can use it
+                                effortlessly, and understand even the most difficult topics.</p>
+                            <h4 class="text-warning fw-light mb-0">Vikas khanna</h3>
+                                <p class="small fst-italic text-secondary">class 9</p>
+                        </div>
+                        <div class="sh-carousel-item p-3">
+                            <i class="ti ti-blockquote h1 mb-2 text-warning"></i>
+                            <p class="text-light">“Awesome! Fun! Easy! My son who hated maths, loves it now. He loves
+                                watching the videos and learning from them </p>
+                            <h4 class="text-warning fw-light mb-0">Shikha Sharma</h3>
+                                <p class="small fst-italic text-secondary">Class 7</p>
+                        </div>
+                        <div class="sh-carousel-item p-3">
+                            <i class="ti ti-blockquote h1 mb-2 text-warning"></i>
+                            <p class="text-light">My nephews are addicted to this app!! The idea of integrating fun with
+                                learning has paid off. Great app</p>
+                            <h4 class="text-warning fw-light mb-0">Neha Patel </h3>
+                                <p class="small fst-italic text-secondary">Class 9</p>
+                        </div>
+                        <div class="sh-carousel-item p-3">
+                            <i class="ti ti-blockquote h1 mb-2 text-warning"></i>
+                            <p class="text-light">“Great learning app with good graphics. The app engages with children
+                                very effectively.</p>
+                            <h4 class="text-warning fw-light mb-0">Rahul Mishra</h3>
+                                <p class="small fst-italic text-secondary">Class 10</p>
+                        </div>
+                        <div class="sh-carousel-item p-3">
+                            <i class="ti ti-blockquote h1 mb-2 text-warning"></i>
+                            <p class="text-light">STUDY_SELF was the best option for my daughter. I have no words for
+                                it, just lovely! </p>
+                            <h4 class="text-warning fw-light mb-0">Aashi Chaudhary</h3>
+                                <p class="small fst-italic text-secondary">Chall 8</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="top-teachers container-fluid px-0 bg-success py-5">
+            <div class="container">
+                <h1 class="mb-4">
+                    <span class="text-light fw-bold">Our </span>
+                    <span class="text-warning fw-light">Top Teachers ... </span>
+                </h1>
+                <div class="row">
+                    <div class="col-md-6 mb-3">
+                        <div class="teacher-card">
+                            <div class="img-container border border-success">
+                                <img src="../images/teacher-1.webp" alt="">
+                            </div>
+                            <div class="teacher-info">
+                                <h5 class="fw-bold text-primary">Teacher Name</h5>
+                                <p class="small text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                    Nisi, inventore.</p>
+                                <div class="d-flex gap-2 contacts">
+                                    <i class="ti ti-brand-facebook"></i>
+                                    <i class="ti ti-brand-instagram"></i>
+                                    <i class="ti ti-brand-linkedin"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 mb-3">
+                        <div class="teacher-card">
+                            <div class="img-container border border-success">
+                                <img src="../images/teacher-2.webp" alt="">
+                            </div>
+                            <div class="teacher-info">
+                                <h5 class="fw-bold text-primary">Teacher Name</h5>
+                                <p class="small text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                    Nisi, inventore.</p>
+                                <div class="d-flex gap-2 contacts">
+                                    <i class="ti ti-brand-facebook"></i>
+                                    <i class="ti ti-brand-instagram"></i>
+                                    <i class="ti ti-brand-linkedin"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 mb-3">
+                        <div class="teacher-card">
+                            <div class="img-container border border-success">
+                                <img src="../images/teacher-4.webp" alt="">
+                            </div>
+                            <div class="teacher-info">
+                                <h5 class="fw-bold text-primary">Teacher Name</h5>
+                                <p class="small text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                    Nisi, inventore.</p>
+                                <div class="d-flex gap-2 contacts">
+                                    <i class="ti ti-brand-facebook"></i>
+                                    <i class="ti ti-brand-instagram"></i>
+                                    <i class="ti ti-brand-linkedin"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 mb-3">
+                        <div class="teacher-card">
+                            <div class="img-container border border-success">
+                                <img src="../images/teacher-5.webp" alt="">
+                            </div>
+                            <div class="teacher-info">
+                                <h5 class="fw-bold text-primary">Teacher Name</h5>
+                                <p class="small text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                    Nisi, inventore.</p>
+                                <div class="d-flex gap-2 contacts">
+                                    <i class="ti ti-brand-facebook"></i>
+                                    <i class="ti ti-brand-instagram"></i>
+                                    <i class="ti ti-brand-linkedin"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="footer-area container-fluid bg-light py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="footer-widget mb-40">
+                        <div class="footer-title">
+                            <h4>ABOUT US</h4>
+                        </div>
+                        <div class="footer-about">
+                            <p>We are focused on building a strong team of experts across a wide range of content, media
+                                and technology to create world class learning content for students of all education
+                                tiers for a rich and strong foundation.</p>
+                            <div class="f-contact-info">
+                                <div class="single-f-contact-info">
+                                    <i class="fa fa-home"></i>
+                                    <span>Uttara, Dhaka, Bangladesh</span>
+                                </div>
+                                <div class="single-f-contact-info">
+                                    <i class="ti ti-mail me-2"></i>
+                                    <span><a href="#">education@email.com</a></span>
+                                </div>
+                                <div class="single-f-contact-info">
+                                    <i class="ti ti-phone-call me-2"></i>
+                                    <span> +98 558 547 589</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="footer-widget mb-40">
+                        <div class="footer-title">
+                            <h4>QUICK LINKS</h4>
+                        </div>
+
+                        <ul class="list-unstyled list-group list-group-flush">
+                            <a class="list-group-item d-flex justify-content-between align-items-center"
+                                href="./index.html">
+                                Home
+                                <i class="ti ti-arrow-right"></i>
+                            </a>
+                            <a class="list-group-item d-flex justify-content-between align-items-center"
+                                href="./about.html">
+                                About
+                                <i class="ti ti-arrow-right"></i>
+                            </a>
+                            <a class="list-group-item d-flex justify-content-between align-items-center"
+                                href="./TnCs.html">
+                                Terms & Conditions
+                                <i class="ti ti-arrow-right"></i>
+                            </a>
+                            <a class="list-group-item d-flex justify-content-between align-items-center"
+                                href="./FAQs.html">
+                                Frequently Asked Questions
+                                <i class="ti ti-arrow-right"></i>
+                            </a>
+                        </ul>
+
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="footer-widget negative-mrg-30 mb-40">
+                        <div class="footer-title">
+                            <h4>OFFERED COURSES</h4>
+                        </div>
+
+                        <ul class="list-unstyled list-group list-group-flush">
+                            <a href="./math.course.html"
+                                class="list-group-item  d-flex justify-content-between align-items-center">
+                                Math Program
+                                <i class="ti ti-arrow-right"></i>
+                            </a>
+                            <a href="./english.course.html"
+                                class="list-group-item  d-flex justify-content-between align-items-center">
+                                English Program
+                                <i class="ti ti-arrow-right"></i>
+                            </a>
+                            <a href="./computer.course.html"
+                                class="list-group-item  d-flex justify-content-between align-items-center">
+                                Computer Programming Course
+                                <i class="ti ti-arrow-right"></i>
+                            </a>
+                            <a href="./speaking.course.html"
+                                class="list-group-item  d-flex justify-content-between align-items-center">
+                                Public Speaking Program
+                                <i class="ti ti-arrow-right"></i>
+                            </a>
+                        </ul>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <div class="fixed-contact dropdown">
+        <button class="btn btn-success border-light" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown"
+            aria-expanded="false">
+            <i class="ti ti-help h2"></i>
+        </button>
+        <ul class="dropdown-menu bg-primary border-light shadow mb-2" aria-labelledby="dropdownMenuButton1">
+            <li>
+                <h6 class="dropdown-header text-light">Contact Us</h6>
+            </li>
+            <li>
+                <a class="dropdown-item" href="mailto:contact.us@site_name.in">
+                    <i class="ti ti-mail me-2"></i>
+                    Send Us a Mail
+                </a>
+            </li>
+            <li>
+                <a class="dropdown-item" href="tel:9456945678">
+                    <i class="ti ti-phone-call me-2"></i>
+                    24/7 Helpline
+                </a>
+            </li>
+            <li>
+                <a class="dropdown-item" href="https://wa.me/+919456945678">
+                    <i class="ti ti-brand-whatsapp me-2"></i>
+                    Whatsapp Helpdesk
+                </a>
+            </li>
+        </ul>
+    </div>
+    <div class="modal fade" id="videoModal" tabindex="-1" aria-labelledby="videoModaLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable modal-xl">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="videoModaLabel">What is Meaning of Education? | Derivation Explained
+                        | Information Video</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body p-0" id="ytPlayerContainer">
+                    <iframe width="100%" height="400" src="https://www.youtube.com/embed/sv5hK4crIRc"
+                        title="What is Meaning of Education? |  Derivation Explained  | Information Video"
+                        frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="../vendors/jquery.min.js"></script>
+    <script src="../vendors/owl.carousel.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+    <script src="../scripts/main.js"></script>
+    <script>
+        const player = document.querySelector("#ytPlayerContainer iframe");
+        const playerCopy = player.cloneNode(true)
+        const videoModal = document.querySelector("#videoModal");
+        videoModal.addEventListener("hide.bs.modal", () => {
+            console.log("Starting to Hide");
+            player.remove();
+        })
+        videoModal.addEventListener("hidden.bs.modal", () => {
+            console.log("Hide Complete");
+            document.querySelector("#ytPlayerContainer").appendChild(playerCopy)
+        })
+    </script>
+</body>
+
+</html>
